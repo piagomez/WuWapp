@@ -1,0 +1,49 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-content class="content-menu">
+      <ion-list>
+            <a class="item item-avatar"  menu-close href="#/app/profile">
+              <img class="bar-stable avatar" src="../img/avatar.jpg">
+              <h2>Nombre Apellido </h2>
+            </a>
+      </ion-list>
+        <ion-item class="bar-stable" href="#/app/profile">
+        </ion-item>
+        <ion-item menu-close href="#/app/home">
+          Inicio
+        </ion-item>
+        <ion-item menu-close href="#/app/enterpreneurs">
+          Emprendimientos
+        </ion-item>
+        <ion-item menu-close href="#/app/inversors">
+          Financiamiento
+        </ion-item>
+        <ion-item menu-close href="#/app/guide">
+          Guía para emprender
+        </ion-item>
+        <ion-item menu-close ng-click="#/app/events">
+          Eventos
+        </ion-item>
+        <ion-item menu-close href="#/app/blog">
+          Blogs
+        </ion-item>
+        <ion-item menu-close href="#/app/chat">
+          Chat
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

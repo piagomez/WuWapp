@@ -1,0 +1,12 @@
+{
+  "name": "wakeupwoman",
+  "app_id": "df0b44e3",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
